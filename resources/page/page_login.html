@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+
+<html lang=fr>
+
+<head>
+    <title>Secret de votre club</title>
+    <link rel="shortcut icon" href="https://i.imgur.com/oijO4vP.png">
+</head>
+<style>
+    body{
+        font-family: 'Londrina Solid', sans-serif;
+        font-size: 2rem;
+        background: rgb(34, 34, 34);
+        color: azure;
+        letter-spacing: 2px;
+        display: grid;
+        text-align: center;
+    }
+    body form{
+        background:white;
+        width:300px;
+        border-radius:6px;
+        margin: 0 auto 0 auto;
+        padding:0px 0px 70px 0px;
+        border: #000000 4px solid; 
+    }
+    body form input{
+        background:#ecf0f1;
+        border: #ccc 1px solid;
+        border-bottom: #ccc 2px solid;
+        padding: 8px;
+        width:250px;
+        color:#AAAAAA;
+        margin-top:10px;
+        font-size:1em;
+        border-radius:4px;
+    }
+    body form input[type=submit]{
+        background:#004b5e;
+    }
+    body form input[type=submit]:hover{
+        background:#006a85;
+        cursor:  pointer;
+    }
+</style>
+<body>
+    <form method="post" action="/">
+        <input name="username" placeholder="Nom d'utilisateur" type="text"></input>
+        <input name="password" placeholder="Mot de passe" type="password"></input>
+        <input type="submit"></input>
+    </form>
+</body>
